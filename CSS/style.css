@@ -4,6 +4,8 @@
 }
 body{
     background-color: #CAD593;
+    max-height: 90vw;
+    height: 100%;
 }
 
 header{
