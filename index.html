@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/style.css">
+  </head>
+  <body>
+    <header class="row px-6 mx-0">
+            <div class="col">
+                <div class="text-left ps-3">
+                    <h1 class="display-1">Curriculum Vitae</h1>
+                </div>
+                <div class="text-left ps-5">
+                    <h3 class="display-6">David Emanuel Peralta</h3>
+                </div>
+            </div>
+            <div class="col-3 " id="profile_pic-wraper">
+                <img class="img-fluid rounded-circle" id="profile_pic" src="/images/jo.jpg" alt="Foto del rostro de la persona" >  
+            </div>
+        <!-- </div> -->
+        
+        
+    </header>
+    <main class="container">
+        <!--<section class="container text-center" id="lista-de-proyectos">-->
+            <h2 class="text-center display-4">Experiencias Profesionales</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 text-center" id="detalles-del-proyecto">
+                <div class="col">
+                    <article class="card shadow">
+                        <figure class="card-img-top">
+                            <img src="/images/proyecto1.jpg" class="img-fluid" alt="Ingenieros trabajando en un motor">
+                            <figcaption class="text-muted text-center">
+                                <cite>Imagen extraida de google</cite>
+                            </figcaption>
+                        </figure>
+                        <div class="card-body accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Mecánico de Vehículos Pesados | Empresa de Transporte XYZ | 2010 - 2012
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    Como mecánico de vehículos pesados en la empresa de transporte XYZ, trabajé en equipo para mantener la flota de camiones en buen estado y evitar tiempos de inactividad costosos. Colaboré en la identificación y reparación de fallas en sistemas de frenos, transmisión, suspensión y motor.
+
+                                    Durante mi tiempo en la empresa de transporte XYZ, mejoré mis habilidades en el uso de herramientas y equipos de diagnóstico de alta tecnología, así como en la interpretación de manuales de reparación y especificaciones del fabricante. Compartí mis conocimientos y habilidades con mis compañeros, mejorando la eficiencia del equipo y asegurando la satisfacción del cliente.
+
+                                    En resumen, mi experiencia como mecánico de vehículos pesados en la empresa de transporte XYZ me permitió desarrollar habilidades técnicas especializadas, trabajar en equipo y ofrecer servicios de alta calidad a los clientes.
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- <p>Mecánico de Autos en Taller XYZ. Diagnosticaba y reparaba problemas mecánicos en varios vehículos. Trabajé en equipo para solucionar fallos complejos en sistemas de frenos, transmisión, suspensión y dirección. Ofrecí alta calidad en servicio al cliente. Trabajé allí desde 2018.
+                                </p> -->
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <div class="card shadow">
+                        <figure class="card-img-top">
+                            <img src="/images/proyecto2.jpg" class="img-fluid" alt="Ingenieros trabajando en un motor">
+                            <figcaption class="text-muted text-center">
+                                <cite>Imagen extraida de google</cite>
+                            </figcaption>
+                        </figure>
+                        <div class="card-body accordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Mecánico de Autos | Taller de Reparación de Autos XYZ | 2014 - 2018
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    Como mecánico de autos en el taller XYZ, trabajé en equipo para diagnosticar y reparar problemas mecánicos en automóviles y camiones. Colaboré en la identificación y reparación de fallas en sistemas de frenos, transmisión, suspensión y dirección.
+                                
+                                    Durante mi tiempo en el taller XYZ, mejoré mis habilidades en el uso de herramientas de diagnóstico y reparación. Compartí mis conocimientos y habilidades con mis compañeros, mejorando la eficiencia del equipo y asegurando la satisfacción del cliente.
+                                    
+                                    En resumen, mi experiencia como mecánico en el taller XYZ me permitió desarrollar habilidades técnicas, trabajar en equipo y ofrecer servicios de alta calidad a los clientes.
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- <p>Mecánico de Autos | Taller de Reparación de Autos XYZ | 2014 - 2018
+
+                                Como mecánico de autos en el taller XYZ, trabajé en equipo para diagnosticar y reparar problemas mecánicos en automóviles y camiones. Colaboré en la identificación y reparación de fallas en sistemas de frenos, transmisión, suspensión y dirección.
+                                
+                                Durante mi tiempo en el taller XYZ, mejoré mis habilidades en el uso de herramientas de diagnóstico y reparación. Compartí mis conocimientos y habilidades con mis compañeros, mejorando la eficiencia del equipo y asegurando la satisfacción del cliente.
+                                
+                                En resumen, mi experiencia como mecánico en el taller XYZ me permitió desarrollar habilidades técnicas, trabajar en equipo y ofrecer servicios de alta calidad a los clientes.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow">
+                        <figure class="card-img-top">
+                            <img src="/images/proyecto3.jpg" class="img-fluid" alt="Ingenieros trabajando en un motor">
+                            <figcaption class="text-muted text-center">
+                                <cite>Imagen extraida de google</cite>
+                            </figcaption>
+                        </figure>
+                        <div class="card-body accordion">  
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Técnico de Servicio | Concesionario de Autos ABC | 2012 - 2014
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    Como técnico de servicio en el concesionario ABC, trabajé en equipo para diagnosticar y reparar problemas mecánicos en una variedad de automóviles de alta gama. Colaboré en la identificación y reparación de fallas en sistemas electrónicos, motores y transmisiones.
+                                            
+                                            Durante mi tiempo en el concesionario ABC, mejoré mis habilidades en el uso de herramientas y equipos de diagnóstico de última generación. Compartí mis conocimientos y habilidades con mis compañeros, mejorando la eficiencia del equipo y asegurando la satisfacción del cliente.
+                                            
+                                            En resumen, mi experiencia como técnico de servicio en el concesionario ABC me permitió desarrollar habilidades técnicas avanzadas, trabajar en equipo y ofrecer servicios de alta calidad a los clientes.
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- <div class="accordion-item">
+                                <h5 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Técnico de Servicio | Concesionario de Autos ABC | 2012 - 2014
+                                </h5>
+                                <div class="accordion-collapse collapse" aria-labelledby="header3" data-bs-parent="#accordion">
+                                    <div class="accordion-body">
+                                            Como técnico de servicio en el concesionario ABC, trabajé en equipo para diagnosticar y reparar problemas mecánicos en una variedad de automóviles de alta gama. Colaboré en la identificación y reparación de fallas en sistemas electrónicos, motores y transmisiones.
+                                            
+                                            Durante mi tiempo en el concesionario ABC, mejoré mis habilidades en el uso de herramientas y equipos de diagnóstico de última generación. Compartí mis conocimientos y habilidades con mis compañeros, mejorando la eficiencia del equipo y asegurando la satisfacción del cliente.
+                                            
+                                            En resumen, mi experiencia como técnico de servicio en el concesionario ABC me permitió desarrollar habilidades técnicas avanzadas, trabajar en equipo y ofrecer servicios de alta calidad a los clientes.
+                                    </div>
+                                </div>
+                            </div> -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--</section>-->
+    </main>
+    <footer class="text-center">
+        2023 | Todos los derechos reservados por Emanuel Maximiliano Nieva | pagina de prubas
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

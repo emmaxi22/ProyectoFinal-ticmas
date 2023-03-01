@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: #CAD593;
+}
+
+header{
+    background-color: #243010;
+    color: rgba(245, 245, 245, 0.729);
+}
+#profile_pic-wraper{
+    margin-right: 0;
+}
+header img{
+    float: left;
+    height: 100%;
+}
+#detalles-del-proyecto{
+    background-color: #87A330;
+    padding: 5rem; 
+}
+.card{
+    background-color: #ffffffcd;
+}
+.card-img-top{
+    height: 10rem;
+}
+.card-img-top img{
+    height: 100%;
+    width: 100%;
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: cover;
+    padding-top: 1rem;
+}
+figcaption cite{
+    font-style: italic;
+}
