@@ -14,10 +14,17 @@ header{
 }
 #profile_pic-wraper{
     margin-right: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 header img{
-    float: left;
+    /* float: left; */
     height: 100%;
+}
+#descripcion-personal{
+    background-color: #4e6e1bb9;
+    color: whitesmoke;
+
 }
 #detalles-del-proyecto{
     background-color: #87A330;
@@ -39,4 +46,8 @@ header img{
 }
 figcaption cite{
     font-style: italic;
+}
+#datos-personales,#datos-contacto{
+    border-bottom: 0.2rem solid #86a330d0;
+    margin-bottom: 0.5rem;
 }
